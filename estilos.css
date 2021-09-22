@@ -1,0 +1,139 @@
+.logoBs {
+  width: 100px;
+  height: 100px; }
+
+.linkPrincipal {
+  text-decoration: none;
+  padding: 25px;
+  font-size: 20px; }
+
+a:visited {
+  color: #eb9c0a; }
+
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #217042; }
+
+.pie-logo {
+  width: 100px;
+  height: 100px; }
+
+.pie {
+  background-color: #217042; }
+
+.link-pie:visited {
+  color: #eb9c0a; }
+
+.pie-link {
+  padding: 35px;
+  font-size: 20px;
+  text-decoration: none; }
+
+.tituloCarrouselDjokovic {
+  font-size: 40px;
+  font-family: "Archivo Narrow", sans-serif; }
+
+.parrafoCarrouselDjokovic {
+  font-size: 20px;
+  font-family: "Archivo Narrow", sans-serif; }
+
+.tituloCarrouselIga {
+  font-size: 40px;
+  font-family: "Archivo Narrow", sans-serif; }
+
+.parrafoCarrouselIga {
+  font-size: 20px;
+  font-family: "Archivo Narrow", sans-serif; }
+
+.cabeceraContacto {
+  font-size: 50px;
+  color: #217042;
+  text-align: center;
+  padding: 20px;
+  font-family: "Roboto", sans-serif; }
+
+.form-control {
+  padding: 10px; }
+
+.seccionTorneo-titulo {
+  font-size: 50px;
+  text-align: center;
+  color: #217042;
+  padding: 15px;
+  font-family: "Roboto", sans-serif; }
+
+.seccionTorneo {
+  line-height: 35px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  color: #217042; }
+
+.seccionTorneo-tituloDeFoto {
+  font-style: italic; }
+
+.seccionTorneo-imagen2005 {
+  font-style: italic; }
+
+.foto2005 {
+  margin-right: auto;
+  margin-left: auto; }
+
+.seccionEstadio-titulo {
+  font-size: 50px;
+  text-align: center;
+  color: #217042;
+  padding: 15px;
+  font-family: "Roboto", sans-serif; }
+
+.seccionEstadio-articulo {
+  line-height: 35px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  color: #217042; }
+
+.seccionmasculinos-titulo {
+  font-size: 50px;
+  text-align: center;
+  color: #217042;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  border-bottom: solid 1px #217042; }
+
+.seccionMasculinos {
+  line-height: 35px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  color: #217042; }
+
+.seccionDobles {
+  line-height: 35px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  color: #217042; }
+
+.seccionmasculino-subtitulo {
+  font-size: 35px;
+  text-align: center;
+  color: #217042;
+  padding: 15px;
+  font-family: "Roboto", sans-serif; }
+
+.seccionfemeninos-titulo {
+  font-size: 50px;
+  text-align: center;
+  color: #217042;
+  padding: 15px;
+  font-family: "Roboto", sans-serif; }
+
+.seccionFemeninos {
+  line-height: 35px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  color: #217042; }

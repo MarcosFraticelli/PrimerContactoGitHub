@@ -1,0 +1,58 @@
+.logoBs {
+  width: 100px;
+  height: 100px;
+}
+
+.linkPrincipal {
+  text-decoration: none;
+  padding: 25px;
+  font-size: 20px;
+}
+a:visited {
+  color: rgb(235, 156, 10);
+}
+
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(33, 112, 66);
+}
+
+.pie-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.pie {
+  background-color: rgb(33, 112, 66);
+}
+
+.link-pie:visited {
+  color: rgb(235, 156, 10);
+}
+.pie-link {
+  padding: 35px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.tituloCarrouselDjokovic {
+  font-size: 40px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.parrafoCarrouselDjokovic {
+  font-size: 20px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.tituloCarrouselIga {
+  font-size: 40px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.parrafoCarrouselIga {
+  font-size: 20px;
+  font-family: "Archivo Narrow", sans-serif;
+}
