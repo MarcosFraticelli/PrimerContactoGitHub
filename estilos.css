@@ -3,9 +3,11 @@
   height: 100px; }
 
 .linkPrincipal {
+  list-style: none;
   text-decoration: none;
   padding: 25px;
-  font-size: 20px; }
+  font-size: 20px;
+  color: #eb9c0a; }
 
 a:visited {
   color: #eb9c0a; }
