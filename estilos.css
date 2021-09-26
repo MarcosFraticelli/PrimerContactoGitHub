@@ -9,7 +9,8 @@
   font-size: 20px;
   color: #eb9c0a; }
 
-a:visited {
+.linkPrincipal:hover {
+  text-decoration: none;
   color: #eb9c0a; }
 
 .menu {
@@ -154,7 +155,8 @@ a:visited {
   padding: 20px;
   font-size: 20px;
   font-family: "Fira Sans", sans-serif;
-  color: #217042; }
+  color: #217042;
+  border-bottom: solid 1px #217042; }
 
 .seccionDobles {
   line-height: 35px;
@@ -183,7 +185,8 @@ a:visited {
   padding: 20px;
   font-size: 20px;
   font-family: "Fira Sans", sans-serif;
-  color: #217042; }
+  color: #217042;
+  border-bottom: solid 1px #217042; }
 
 .seccionFemenino-subtitulo {
   font-size: 35px;
@@ -191,3 +194,10 @@ a:visited {
   color: #217042;
   padding: 15px;
   font-family: "Roboto", sans-serif; }
+
+.seccionFemeninosDobles {
+  line-height: 35px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  color: #217042; }

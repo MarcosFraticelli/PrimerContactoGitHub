@@ -13,6 +13,7 @@
   font-size: 20px;
   font-family: "Fira Sans", sans-serif;
   color: rgb(33, 112, 66);
+  border-bottom: solid 1px rgb(33, 112, 66);
 }
 .seccionFemenino-subtitulo {
   font-size: 35px;
@@ -20,4 +21,12 @@
   color: rgb(33, 112, 66);
   padding: 15px;
   font-family: "Roboto", sans-serif;
+}
+
+.seccionFemeninosDobles {
+  line-height: 35px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(33, 112, 66);
 }
