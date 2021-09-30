@@ -94,6 +94,83 @@
   height: 23px;
   width: 23px; }
 
+.contenidoInicio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+.fraseJeu {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 60px;
+  padding: 10px;
+  color: #eb9c0a;
+  font-weight: bold; }
+
+.fraseSet {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 60px;
+  padding: 10px;
+  color: #217042;
+  font-weight: bold; }
+
+.fraseMatch {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 60px;
+  padding: 10px;
+  color: #eb9c0a;
+  font-weight: bold; }
+
+@media only screen and (max-width: 360px) {
+  .piePrueba {
+    flex-direction: column; } }
+
+@media only screen and (max-width: 790px) {
+  .fraseMatch,
+  .fraseSet,
+  .fraseJeu {
+    display: none; }
+  .videoInicio {
+    width: 100vw; } }
+
+@media only screen and (max-width: 1200px) {
+  .fraseMatch,
+  .fraseSet,
+  .fraseJeu {
+    font-size: 50px; } }
+
+@media only screen and (max-width: 1100px) {
+  .fraseMatch,
+  .fraseSet,
+  .fraseJeu {
+    font-size: 40px; } }
+
+@media only screen and (max-width: 1100px) {
+  .fraseMatch,
+  .fraseSet,
+  .fraseJeu {
+    font-size: 25px; } }
+
+@media only screen and (max-width: 880px) {
+  .fraseMatch,
+  .fraseSet,
+  .fraseJeu {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 810px) {
+  .fraseMatch,
+  .fraseSet,
+  .fraseJeu {
+    font-size: 15px; } }
+
+.logoSocial:hover {
+  transform: scale(2, 2); }
+
+@media only screen and (max-width: 800px) {
+  .logoBs {
+    width: 60px;
+    height: 60px; } }
+
 .cabeceraContacto {
   font-size: 50px;
   color: #217042;
@@ -102,7 +179,15 @@
   font-family: "Roboto", sans-serif; }
 
 .form-control {
-  padding: 10px; }
+  padding: 10px;
+  width: 100vw; }
+
+.mapa {
+  width: 100vw; }
+
+@media only screen and (max-width: 420px) {
+  .cabeceraContacto {
+    font-size: 30px; } }
 
 .seccionTorneo-titulo {
   font-size: 50px;

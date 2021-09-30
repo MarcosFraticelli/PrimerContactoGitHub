@@ -8,4 +8,15 @@
 
 .form-control {
   padding: 10px;
+  width: 100vw;
+}
+
+.mapa {
+  width: 100vw;
+}
+
+@media only screen and (max-width: 420px) {
+  .cabeceraContacto {
+    font-size: 30px;
+  }
 }
