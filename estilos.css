@@ -209,13 +209,8 @@
 .seccionTorneo-imagen2005 {
   font-style: italic; }
 
-.foto2005 {
-  margin-right: auto;
-  margin-left: auto; }
-
 .nadalFoto3 {
-  margin-left: auto;
-  margin-right: auto; }
+  width: 100vw; }
 
 .seccionEstadio-titulo {
   font-size: 50px;
@@ -268,6 +263,13 @@
   padding: 15px;
   font-family: "Roboto", sans-serif;
   border-bottom: solid 1px #217042; }
+
+.igaTrofeo {
+  margin-left: auto;
+  margin-right: auto; }
+
+.krejicovaTrofeo {
+  width: 100vw; }
 
 .seccionFemeninos {
   line-height: 35px;
