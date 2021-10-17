@@ -16,6 +16,7 @@
 
 .seccionTorneo-tituloDeFoto {
   font-style: italic;
+  text-align: center;
 }
 
 .seccionTorneo-imagen2005 {
@@ -24,4 +25,61 @@
 
 .nadalFoto3 {
   width: 100vw;
+}
+
+.nadalCelebra {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 750px) {
+  .seccionTorneo-titulo {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .seccionTorneo-titulo {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .seccionTorneo-titulo {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .seccionTorneo-titulo {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .seccionTorneo {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .seccionTorneo-tituloDeFoto {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .nadalCelebra {
+    width: 409px;
+    height: 582px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nadalCelebra {
+    width: 379px;
+    height: 552px;
+  }
 }

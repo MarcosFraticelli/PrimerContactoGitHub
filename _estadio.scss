@@ -13,3 +13,28 @@
   font-family: "Fira Sans", sans-serif;
   color: rgb(33, 112, 66);
 }
+
+@media only screen and (max-width: 730px) {
+  .seccionEstadio-titulo {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .seccionEstadio-titulo {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .seccionEstadio-titulo {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .seccionEstadio-articulo {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}

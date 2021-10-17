@@ -31,3 +31,71 @@
   padding: 15px;
   font-family: "Roboto", sans-serif;
 }
+
+@media only screen and (max-width: 700px) {
+  .seccionmasculinos-titulo {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .seccionmasculinos-titulo {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .seccionmasculinos-titulo {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .seccionmasculinos-titulo {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .seccionmasculinos-titulo {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .seccionmasculino-subtitulo {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .seccionmasculino-subtitulo {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .seccionmasculino-subtitulo {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .seccionmasculino-subtitulo {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .seccionmasculino-subtitulo {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .seccionMasculinos,
+  .seccionDobles {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}

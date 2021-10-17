@@ -8,12 +8,17 @@
 }
 
 .igaTrofeo {
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .krejicovaTrofeo {
-  width: 100vw;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+  height: 800px;
 }
 
 .seccionFemeninos {
@@ -38,4 +43,95 @@
   font-size: 20px;
   font-family: "Fira Sans", sans-serif;
   color: rgb(33, 112, 66);
+}
+
+@media only screen and (max-width: 750px) {
+  .seccionfemeninos-titulo {
+    font-size: 40px;
+  }
+  .seccionFemenino-subtitulo {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .seccionfemeninos-titulo {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .seccionfemeninos-titulo {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .seccionFemenino-subtitulo {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .seccionFemeninos,
+  .seccionFemeninosDobles {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .krejicovaTrofeo {
+    width: 700px;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .krejicovaTrofeo {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .krejicovaTrofeo {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .igaTrofeo {
+    width: 800px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .igaTrofeo {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .igaTrofeo {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .igaTrofeo {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .igaTrofeo {
+    width: 350px;
+    height: 400px;
+  }
 }

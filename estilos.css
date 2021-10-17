@@ -19,12 +19,9 @@
   z-index: 1;
   background-color: #217042; }
 
-.pie-logo {
-  width: 100px;
-  height: 100px; }
-
-.pie {
-  background-color: #217042; }
+.tituloInicio {
+  font-size: 40px;
+  font-family: "Archivo Narrow", sans-serif; }
 
 .link-pie:visited {
   color: #eb9c0a; }
@@ -35,11 +32,11 @@
   text-decoration: none; }
 
 .tituloCarrouselDjokovic {
-  font-size: 40px;
+  font-size: 80px;
   font-family: "Archivo Narrow", sans-serif; }
 
 .parrafoCarrouselDjokovic {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Archivo Narrow", sans-serif; }
 
 .tituloCarrouselIga {
@@ -53,10 +50,6 @@
 .piePrueba {
   border-top: 1px solid black;
   background-color: #217042; }
-
-.logoFederacion {
-  width: 100px;
-  height: 100px; }
 
 .linkDePie {
   width: 100px;
@@ -121,6 +114,9 @@
   color: #eb9c0a;
   font-weight: bold; }
 
+.logoSocial:hover {
+  transform: scale(2, 2); }
+
 @media only screen and (max-width: 360px) {
   .piePrueba {
     flex-direction: column; } }
@@ -163,13 +159,53 @@
   .fraseJeu {
     font-size: 15px; } }
 
-.logoSocial:hover {
-  transform: scale(2, 2); }
-
 @media only screen and (max-width: 800px) {
   .logoBs {
     width: 60px;
-    height: 60px; } }
+    height: 60px; }
+  .linkPrincipal {
+    font-size: 15px; } }
+
+@media only screen and (max-width: 450px) {
+  .logoBs {
+    width: 40px;
+    height: 40px; } }
+
+@media only screen and (max-width: 700px) {
+  .logoSocial {
+    padding: 10px;
+    width: 40px;
+    height: 40px; }
+  .logoCopyRight {
+    border-top: auto;
+    border-bottom: auto;
+    height: 18px;
+    width: 18px; }
+  .copyRight {
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-right: 1px solid black; } }
+
+@media only screen and (max-width: 550px) {
+  .logoSocial {
+    padding: 10px;
+    width: 35px;
+    height: 35px; }
+  .logoCopyRight {
+    border-top: auto;
+    border-bottom: auto;
+    height: 13px;
+    width: 13px; }
+  .copyRight {
+    font-size: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-right: 1px solid black; } }
+
+@media only screen and (max-width: 450px) {
+  .linkPrincipal {
+    font-size: 10px; } }
 
 .cabeceraContacto {
   font-size: 50px;
@@ -204,13 +240,54 @@
   color: #217042; }
 
 .seccionTorneo-tituloDeFoto {
-  font-style: italic; }
+  font-style: italic;
+  text-align: center; }
 
 .seccionTorneo-imagen2005 {
   font-style: italic; }
 
 .nadalFoto3 {
   width: 100vw; }
+
+.nadalCelebra {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media only screen and (max-width: 750px) {
+  .seccionTorneo-titulo {
+    font-size: 40px; } }
+
+@media only screen and (max-width: 610px) {
+  .seccionTorneo-titulo {
+    font-size: 35px; } }
+
+@media only screen and (max-width: 550px) {
+  .seccionTorneo-titulo {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 500px) {
+  .seccionTorneo-titulo {
+    font-size: 25px; } }
+
+@media only screen and (max-width: 600px) {
+  .seccionTorneo {
+    font-size: 15px;
+    line-height: 30px; } }
+
+@media only screen and (max-width: 600px) {
+  .seccionTorneo-tituloDeFoto {
+    font-size: 10px; } }
+
+@media only screen and (max-width: 520px) {
+  .nadalCelebra {
+    width: 409px;
+    height: 582px; } }
+
+@media only screen and (max-width: 450px) {
+  .nadalCelebra {
+    width: 379px;
+    height: 552px; } }
 
 .seccionEstadio-titulo {
   font-size: 50px;
@@ -225,6 +302,23 @@
   font-size: 20px;
   font-family: "Fira Sans", sans-serif;
   color: #217042; }
+
+@media only screen and (max-width: 730px) {
+  .seccionEstadio-titulo {
+    font-size: 40px; } }
+
+@media only screen and (max-width: 600px) {
+  .seccionEstadio-titulo {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 470px) {
+  .seccionEstadio-titulo {
+    font-size: 25px; } }
+
+@media only screen and (max-width: 550px) {
+  .seccionEstadio-articulo {
+    font-size: 15px;
+    line-height: 30px; } }
 
 .seccionmasculinos-titulo {
   font-size: 50px;
@@ -256,6 +350,52 @@
   padding: 15px;
   font-family: "Roboto", sans-serif; }
 
+@media only screen and (max-width: 700px) {
+  .seccionmasculinos-titulo {
+    font-size: 45px; } }
+
+@media only screen and (max-width: 630px) {
+  .seccionmasculinos-titulo {
+    font-size: 35px; } }
+
+@media only screen and (max-width: 520px) {
+  .seccionmasculinos-titulo {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 450px) {
+  .seccionmasculinos-titulo {
+    font-size: 25px; } }
+
+@media only screen and (max-width: 380px) {
+  .seccionmasculinos-titulo {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 900px) {
+  .seccionmasculino-subtitulo {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 760px) {
+  .seccionmasculino-subtitulo {
+    font-size: 25px; } }
+
+@media only screen and (max-width: 630px) {
+  .seccionmasculino-subtitulo {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 515px) {
+  .seccionmasculino-subtitulo {
+    font-size: 15px; } }
+
+@media only screen and (max-width: 415px) {
+  .seccionmasculino-subtitulo {
+    font-size: 12px; } }
+
+@media only screen and (max-width: 800px) {
+  .seccionMasculinos,
+  .seccionDobles {
+    font-size: 15px;
+    line-height: 30px; } }
+
 .seccionfemeninos-titulo {
   font-size: 50px;
   text-align: center;
@@ -265,11 +405,16 @@
   border-bottom: solid 1px #217042; }
 
 .igaTrofeo {
+  display: block;
   margin-left: auto;
   margin-right: auto; }
 
 .krejicovaTrofeo {
-  width: 100vw; }
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+  height: 800px; }
 
 .seccionFemeninos {
   line-height: 35px;
@@ -292,3 +437,67 @@
   font-size: 20px;
   font-family: "Fira Sans", sans-serif;
   color: #217042; }
+
+@media only screen and (max-width: 750px) {
+  .seccionfemeninos-titulo {
+    font-size: 40px; }
+  .seccionFemenino-subtitulo {
+    font-size: 25px; } }
+
+@media only screen and (max-width: 560px) {
+  .seccionfemeninos-titulo {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 460px) {
+  .seccionfemeninos-titulo {
+    font-size: 25px; } }
+
+@media only screen and (max-width: 550px) {
+  .seccionFemenino-subtitulo {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 550px) {
+  .seccionFemeninos,
+  .seccionFemeninosDobles {
+    font-size: 15px;
+    line-height: 30px; } }
+
+@media only screen and (max-width: 950px) {
+  .krejicovaTrofeo {
+    width: 700px;
+    height: 600px; } }
+
+@media only screen and (max-width: 750px) {
+  .krejicovaTrofeo {
+    width: 500px;
+    height: 400px; } }
+
+@media only screen and (max-width: 550px) {
+  .krejicovaTrofeo {
+    width: 400px;
+    height: 300px; } }
+
+@media only screen and (max-width: 1100px) {
+  .igaTrofeo {
+    width: 800px;
+    height: 500px; } }
+
+@media only screen and (max-width: 840px) {
+  .igaTrofeo {
+    width: 600px;
+    height: 400px; } }
+
+@media only screen and (max-width: 640px) {
+  .igaTrofeo {
+    width: 500px;
+    height: 300px; } }
+
+@media only screen and (max-width: 550px) {
+  .igaTrofeo {
+    width: 400px;
+    height: 300px; } }
+
+@media only screen and (max-width: 450px) {
+  .igaTrofeo {
+    width: 350px;
+    height: 400px; } }
