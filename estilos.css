@@ -10,7 +10,6 @@
   color: #eb9c0a; }
 
 .linkPrincipal:hover {
-  text-decoration: none;
   color: #eb9c0a; }
 
 .menu {
@@ -21,30 +20,6 @@
 
 .tituloInicio {
   font-size: 40px;
-  font-family: "Archivo Narrow", sans-serif; }
-
-.link-pie:visited {
-  color: #eb9c0a; }
-
-.pie-link {
-  padding: 35px;
-  font-size: 20px;
-  text-decoration: none; }
-
-.tituloCarrouselDjokovic {
-  font-size: 80px;
-  font-family: "Archivo Narrow", sans-serif; }
-
-.parrafoCarrouselDjokovic {
-  font-size: 30px;
-  font-family: "Archivo Narrow", sans-serif; }
-
-.tituloCarrouselIga {
-  font-size: 40px;
-  font-family: "Archivo Narrow", sans-serif; }
-
-.parrafoCarrouselIga {
-  font-size: 20px;
   font-family: "Archivo Narrow", sans-serif; }
 
 .piePrueba {
